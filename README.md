@@ -23,7 +23,7 @@ https://code.visualstudio.com/
 ## Clonar proyecto
 
 ```
-git clone XXXX
+git clone https://github.com/SergiRM/pokedex.git
 ```
 
 ## Documentación :book:
