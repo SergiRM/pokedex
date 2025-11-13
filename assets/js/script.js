@@ -19,6 +19,7 @@ $("#navegation__next").click(nextPokemon);
 
 //Funciones
 
+//función de creación de las cartas de los pokemons
 function card(cardPokemon) {
   let idPokemon = cardPokemon.id;
   let idPokemonModal = cardPokemon.id;
@@ -91,6 +92,8 @@ function card(cardPokemon) {
   );
 }
 
+//función de creación del modal de los pokemons
+
 function modalPokemon(
   idPokemon,
   typeBack,
@@ -158,10 +161,10 @@ function modalPokemon(
           legendMarkerColor: "black",
           // legendText: "MMbbl = one million barrels",
           dataPoints: [
-            { y: stats[0].base_stat, label: "Velocidad" },
-            { y: stats[3].base_stat, label: "Defensa" },
-            { y: stats[4].base_stat, label: "Ataque" },
-            { y: stats[5].base_stat, label: "Puntos de vida" },
+            { y: stats[5].base_stat, label: "Velocidad" },
+            { y: stats[2].base_stat, label: "Defensa" },
+            { y: stats[1].base_stat, label: "Ataque" },
+            { y: stats[0].base_stat, label: "Puntos de vida" },
           ],
         },
       ],
